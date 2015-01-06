@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class ServiceUser {
 
-	//Clinical Fields
-	private String blood_type;
+    //Clinical Fields
+    private String blood_type;
     private String estimated_delivery_date;
 
     private int id;
@@ -31,11 +31,10 @@ public class ServiceUser {
     private int next_of_kin_phone;
     private String next_of_kin_name;
  
-    //TODO: Re add
-/*    private ArrayList<Pregnancy> pregnancies;
-    private ArrayList<Birth> births;
+    private ArrayList<Pregnancy> pregnancies;
+    private ArrayList<Baby> babies;
     private boolean hasPregnancy;
-    private boolean hasBirth;*/
+    private boolean hasBaby;
     
     //Full set of info
 	public ServiceUser(String blood_type, String estimated_delivery_date,
@@ -43,7 +42,7 @@ public class ServiceUser {
 			String home_type, String home_county, String home_post_code,
 			String directions, String dob, String email, int home_phone,
 			int mobile_phone, String name, int next_of_kin_phone,
-			String next_of_kin_name) { //TODO: , ArrayList<Pregnancy> pregnancies, ArrayList<Birth> births 
+			String next_of_kin_name, ArrayList<Pregnancy> pregnancies, ArrayList<Baby> babies) {  
 		super();
 		this.blood_type = blood_type;
 		this.estimated_delivery_date = estimated_delivery_date;
@@ -63,12 +62,11 @@ public class ServiceUser {
 		this.next_of_kin_phone = next_of_kin_phone;
 		this.next_of_kin_name = next_of_kin_name;
 		
-		//TODO Re add these
 		//Set these arrays then check if the arrays are empty, to set the booleans
-/*		this.pregnancies = pregnancies;
-		this.births = births;
+		this.pregnancies = pregnancies;
+		this.babies = babies;
 		hasPregnancy = pregnancies.size() > 0;
-		hasBirth = births.size() > 0;*/
+		hasBaby = babies.size() > 0;
 		//These expressions evaluate to true if there's any elements in these arrays and false if there's none
 	}
 	//Determine if other constructors are needed (ie. if some attributes aren't necessary)
@@ -162,21 +160,20 @@ public class ServiceUser {
 		return next_of_kin_name;
 	}
 
-//TODO: Re add these.
-/*	public ArrayList<Pregnancy> getPregnancies() {
+	public ArrayList<Pregnancy> getPregnancies() {
 		return pregnancies;
 	}
 
-	public ArrayList<Birth> getBirths() {
-		return births;
+	public ArrayList<Baby> getBabies() {
+		return babies;
 	}
 
 	public boolean hasPregnancy() {
 		return hasPregnancy;
 	}
 
-	public boolean hasBirth() {
-		return hasBirth;
-	}*/
+	public boolean hasBaby() {
+		return hasBaby;
+	}
 	
 }
