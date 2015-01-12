@@ -18,48 +18,44 @@
         
         android:padding="@dimen/padding_small"
         
-		android:background="@color/primary3"
-		android:orientation="horizontal"
-		android:weightSum="1"
+        android:background="@color/primary3"
+        android:orientation="horizontal"
+        android:weightSum="1"
         >
     
-	    <Button
-	        android:layout_height="wrap_content"
-	        android:layout_width="0dp"
-			android:layout_weight="0.15"
-		
-			android:gravity="center_vertical"
-	        android:layout_marginLeft="@dimen/margin_small"
-	        android:background="@drawable/button_back"
-	
-	        android:minHeight="0dp"
-	        android:minWidth="0dp" />
-	        
-	    <TextView
-			android:layout_height="match_parent"
-	        android:layout_width="0dp"
-			android:layout_weight="0.75"
-	        
-	        android:paddingTop="@dimen/padding_medium"
-			android:gravity="center_horizontal"
-	
-	        android:text="@string/view_appointment_calendar"
-	        android:textSize="@dimen/font_size"
-			android:textColor="@color/primary5"
-	        />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
 
-	    <Button
-	        android:layout_height="wrap_content"
-	        android:layout_width="0dp"
-			android:layout_weight="0.1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:background="@drawable/button_back"
+            />
+            
+    <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.75"
+        
+            android:paddingTop="@dimen/padding_medium"
+            android:gravity="center_horizontal"
 	
-			android:gravity="center_vertical"
-	        android:layout_marginRight="@dimen/margin_small"
-	        android:background="@drawable/ic_action_overflow"
+            android:text="@string/view_appointment_calendar"
+            android:textSize="@dimen/font_size"
+            android:textColor="@color/primary5"
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
 	
-	        android:minHeight="0dp"
-	        android:minWidth="0dp" />
-	    
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_action_overflow"
+            />
+    
     </LinearLayout>
     
     <!--  Adjust this string by code  -->
@@ -72,7 +68,7 @@
         
         android:text="@string/clinic_NMH_OPD"
         android:textSize="@dimen/font_size"
-		android:textColor="@color/primary5"
+        android:textColor="@color/primary5"
         />
     
     <LinearLayout
@@ -87,9 +83,9 @@
             android:layout_weight=".25"
             
             android:gravity="center"
-	        android:text="@string/prev_week"
-	        android:textSize="@dimen/font_size_small"
-			android:textColor="@color/primary5"
+            android:text="@string/prev_week"
+            android:textSize="@dimen/font_size_small"
+            android:textColor="@color/primary5"
             
             android:background="@color/primary3"
             />
@@ -100,9 +96,9 @@
             android:layout_weight=".5"
             
             android:gravity="center"
-	        android:text="@string/current_date"
-	        android:textSize="@dimen/font_size_small"
-			android:textColor="@color/primary5"
+            android:text="@string/current_date"
+            android:textSize="@dimen/font_size_small"
+            android:textColor="@color/primary5"
             
             
             android:background="@color/primary2"
@@ -114,9 +110,9 @@
             android:layout_weight=".25"
 
             android:gravity="center"
-	        android:text="@string/next_week"
-	        android:textSize="@dimen/font_size_small"
-			android:textColor="@color/primary5"
+            android:text="@string/next_week"
+            android:textSize="@dimen/font_size_small"
+            android:textColor="@color/primary5"
             
             android:background="@color/primary3"
             />
@@ -124,51 +120,50 @@
     </LinearLayout>
     
     <!-- These next two boxes are optional notes for the midwives -->
-	<Button
-	    android:layout_height="wrap_content"
-	    android:layout_width="match_parent"
-		
-		android:padding="@dimen/padding_small"
-	    android:gravity="center"
-	    
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:padding="@dimen/padding_small"
+        android:gravity="center"
+        
         android:text="@string/placeholder_notice"
         android:textSize="@dimen/font_size"
-		android:textColor="@color/primary5"
+        android:textColor="@color/primary5"
 
-		android:background="@color/notice"
-		android:drawableLeft="@drawable/ic_action_overflow"
-	    android:drawableRight="@drawable/ic_action_overflow" />
+        android:background="@color/notice"
+        android:drawableLeft="@drawable/ic_action_overflow"
+        android:drawableRight="@drawable/ic_action_overflow" />
 
-	<Button
-	    android:layout_height="wrap_content"
-	    android:layout_width="match_parent"
-				    
-	   	android:padding="@dimen/padding_small"
-	   	android:gravity="center"
-	        
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+       	android:padding="@dimen/padding_small"
+       	android:gravity="center"
+        
         android:text="@string/placeholder_warning"
         android:textSize="@dimen/font_size"
-		android:textColor="@color/primary1"
+        android:textColor="@color/primary1"
 
-	    android:background="@color/warning"
-		android:drawableLeft="@drawable/ic_action_overflow"
-	    android:drawableRight="@drawable/ic_action_overflow" />
+        android:background="@color/warning"
+        android:drawableLeft="@drawable/ic_action_overflow"
+        android:drawableRight="@drawable/ic_action_overflow" />
 
-	<!-- Here ends the optional boxes -->
-	
-	<TextView 
-	    android:layout_height="wrap_content"
-	    android:layout_width="match_parent"
-	    
-		android:paddingLeft="@dimen/padding_medium"
-		android:paddingTop="@dimen/padding_medium"
+    <!-- Here ends the optional boxes -->
+
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+    
+        android:paddingLeft="@dimen/padding_medium"
+        android:paddingTop="@dimen/padding_medium"
 
         android:text="@string/appointment_count"
         android:textSize="@dimen/font_size"
-		android:textColor="@color/primary5"
-	    />
-	
-		
+        android:textColor="@color/primary5"
+        />
+    
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -176,53 +171,53 @@
         android:layout_marginTop="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_small"
         android:layout_marginRight="@dimen/margin_small"
-		android:padding="@dimen/padding_small"
+        android:padding="@dimen/padding_small"
         
         android:text="@string/placeholder_appointment"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="left|center_vertical"
-		
-		android:background="@drawable/top_of_table"
-		android:drawableRight="@drawable/ic_action_overflow"
-		/>
+        android:textColor="@color/primary5"
+        android:gravity="left|center_vertical"
+
+        android:background="@drawable/top_of_table"
+        android:drawableRight="@drawable/ic_action_overflow"
+        />
     
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         
-		android:layout_marginTop="@dimen/margin_negative"
+        android:layout_marginTop="@dimen/margin_negative"
         android:layout_marginLeft="@dimen/margin_small"
         android:layout_marginRight="@dimen/margin_small"
-		android:padding="@dimen/padding_small"
+        android:padding="@dimen/padding_small"
         
         android:text="@string/placeholder_appointment"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="left|center_vertical"
-		
-		android:background="@drawable/element_of_table"
-		android:drawableRight="@drawable/ic_action_overflow"
-		/>
+        android:textColor="@color/primary5"
+        android:gravity="left|center_vertical"
+
+        android:background="@drawable/element_of_table"
+        android:drawableRight="@drawable/ic_action_overflow"
+        />
     
     <!-- Free Slot Element, has minor differences -->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         
-		android:layout_marginTop="@dimen/margin_negative"
+        android:layout_marginTop="@dimen/margin_negative"
         android:layout_marginLeft="@dimen/margin_small"
         android:layout_marginRight="@dimen/margin_small"
-		android:padding="@dimen/padding_medium"
+        android:padding="@dimen/padding_medium"
         
         android:text="@string/free_appointment"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="left|center_vertical"
-		
-		android:background="@drawable/element_of_table"
-		android:drawableLeft="@drawable/ic_action_overflow"
-		/>
+        android:textColor="@color/primary5"
+        android:gravity="left|center_vertical"
+
+        android:background="@drawable/element_of_table"
+        android:drawableLeft="@drawable/ic_action_overflow"
+        />
     
     <Button
         android:layout_width="match_parent"
@@ -232,16 +227,16 @@
         android:layout_marginBottom="@dimen/margin_medium"
         android:layout_marginLeft="@dimen/margin_small"
         android:layout_marginRight="@dimen/margin_small"
-		android:padding="@dimen/padding_small"
+        android:padding="@dimen/padding_small"
         
         android:text="@string/placeholder_appointment"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="left|center_vertical"
-		
-		android:background="@drawable/bottom_of_table"
-		android:drawableRight="@drawable/ic_action_overflow"
-		/>
+        android:textColor="@color/primary5"
+        android:gravity="left|center_vertical"
+
+        android:background="@drawable/bottom_of_table"
+        android:drawableRight="@drawable/ic_action_overflow"
+        />
     
 </LinearLayout>
 </ScrollView>

@@ -15,48 +15,44 @@
         
         android:padding="@dimen/padding_small"
         
-		android:background="@color/primary3"
-		android:orientation="horizontal"
-		android:weightSum="1"
+        android:background="@color/primary3"
+        android:orientation="horizontal"
+        android:weightSum="1"
         >
     
-	    <Button
-	        android:layout_height="wrap_content"
-	        android:layout_width="0dp"
-			android:layout_weight="0.15"
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
 		
-			android:gravity="center_vertical"
-	        android:layout_marginLeft="@dimen/margin_small"
-	        android:background="@drawable/button_back"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:background="@drawable/button_back"
+            />
+            
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.75"
+            
+            android:paddingTop="@dimen/padding_medium"
+            android:gravity="center_horizontal"
 	
-	        android:minHeight="0dp"
-	        android:minWidth="0dp" />
-	        
-	    <TextView
-			android:layout_height="match_parent"
-	        android:layout_width="0dp"
-			android:layout_weight="0.75"
-	        
-	        android:paddingTop="@dimen/padding_medium"
-			android:gravity="center_horizontal"
-	
-	        android:text="@string/view_appointments"
-	        android:textSize="@dimen/font_size"
-			android:textColor="@color/primary5"
-	        />
+            android:text="@string/view_appointments"
+            android:textSize="@dimen/font_size"
+            android:textColor="@color/primary5"
+            />
 
-	    <Button
-	        android:layout_height="wrap_content"
-	        android:layout_width="0dp"
-			android:layout_weight="0.1"
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
 	
-			android:gravity="center_vertical"
-	        android:layout_marginRight="@dimen/margin_small"
-	        android:background="@drawable/ic_action_overflow"
-	
-	        android:minHeight="0dp"
-	        android:minWidth="0dp" />
-	    
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_action_overflow"
+            />
+        
     </LinearLayout>
     
     <TextView 
@@ -72,7 +68,7 @@
         
         android:text="@string/select_calendar"
         android:textSize="@dimen/font_size"
-		android:textColor="@color/primary5"
+        android:textColor="@color/primary5"
         />
     
     <Button
@@ -83,11 +79,11 @@
         android:layout_marginBottom="@dimen/margin_medium"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
+        android:background="@drawable/button"
         
         android:text="@string/clinics"
         android:textSize="@dimen/font_size_large"           
-		android:textColor="@color/primary5"
+        android:textColor="@color/primary5"
         />
     
     <Button
@@ -98,11 +94,11 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
+        android:background="@drawable/button"
 
         android:text="@string/visits"
         android:textSize="@dimen/font_size_large"           
-		android:textColor="@color/primary5"
+        android:textColor="@color/primary5"
         />
     <!-- Currently cut since we might leave out their bottom buttons
     <LinearLayout
@@ -116,28 +112,28 @@
         android:layout_margin="0dp"
         >
         
-    	<Button 
-    	    android:layout_width="0dp"
+        <Button 
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".99"
             
             android:background="@drawable/button__dark_square"
-    	    /> 
-    	    
-    	<TextView 
-    	    android:layout_width="0dp"
+            /> 
+            
+        <TextView 
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight=".02"
-    	    
-    	    android:background="@color/primary5"
-    	    />
-    	<Button
-    	    android:layout_width="0dp"
-        	android:layout_height="match_parent"
+            
+            android:background="@color/primary5"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.99"
 
             android:background="@drawable/button__dark_square"
        	    /> 
-    	
+    
     </LinearLayout>  -->
 </LinearLayout>

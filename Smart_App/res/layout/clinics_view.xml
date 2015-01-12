@@ -21,48 +21,44 @@
         
         android:padding="@dimen/padding_small"
         
-		android:background="@color/primary3"
-		android:orientation="horizontal"
-		android:weightSum="1"
+        android:background="@color/primary3"
+        android:orientation="horizontal"
+        android:weightSum="1"
         >
     
-	    <Button
-	        android:layout_height="wrap_content"
-	        android:layout_width="0dp"
-			android:layout_weight="0.15"
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
 		
-			android:gravity="center_vertical"
-	        android:layout_marginLeft="@dimen/margin_small"
-	        android:background="@drawable/button_back"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:background="@drawable/button_back"
+            />
+        
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.75"
+            
+            android:paddingTop="@dimen/padding_medium"
+            android:gravity="center_horizontal"
 	
-	        android:minHeight="0dp"
-	        android:minWidth="0dp" />
-	        
-	    <TextView
-			android:layout_height="match_parent"
-	        android:layout_width="0dp"
-			android:layout_weight="0.75"
-	        
-	        android:paddingTop="@dimen/padding_medium"
-			android:gravity="center_horizontal"
-	
-	        android:text="@string/view_clinics"
-	        android:textSize="@dimen/font_size"
-			android:textColor="@color/primary5"
-	        />
+            android:text="@string/view_clinics"
+            android:textSize="@dimen/font_size"
+            android:textColor="@color/primary5"
+            />
 
-	    <Button
-	        android:layout_height="wrap_content"
-	        android:layout_width="0dp"
-			android:layout_weight="0.1"
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
 	
-			android:gravity="center_vertical"
-	        android:layout_marginRight="@dimen/margin_small"
-	        android:background="@drawable/ic_action_overflow"
-	
-	        android:minHeight="0dp"
-	        android:minWidth="0dp" />
-	    
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_action_overflow"
+            />
+    
     </LinearLayout>
     
     <TextView 
@@ -74,7 +70,7 @@
         
         android:text="@string/select_domino_clinic"
         android:textSize="@dimen/font_size"
-		android:textColor="@color/primary5"
+        android:textColor="@color/primary5"
         />
     
     <Button
@@ -84,13 +80,13 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
-		android:padding="@dimen/padding_small"
+        android:background="@drawable/button"
+        android:padding="@dimen/padding_small"
         
         android:text="@string/clinic_NMH_OPD_desc"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="start"
+        android:textColor="@color/primary5"
+        android:gravity="start"
         />
     
     <Button
@@ -101,13 +97,13 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
-		android:padding="@dimen/padding_small"
+        android:background="@drawable/button"
+        android:padding="@dimen/padding_small"
 
         android:text="@string/clinic_Leopardstown_desc"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="start"
+        android:textColor="@color/primary5"
+        android:gravity="start"
         />
     
     <Button
@@ -118,13 +114,13 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
-		android:padding="@dimen/padding_small"
+        android:background="@drawable/button"
+        android:padding="@dimen/padding_small"
 
         android:text="@string/clinic_DunLaoghaire"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="start"
+        android:textColor="@color/primary5"
+        android:gravity="start"
         />
     
     <Button
@@ -135,13 +131,13 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
-		android:padding="@dimen/padding_small"
+        android:background="@drawable/button"
+        android:padding="@dimen/padding_small"
 
         android:text="@string/clinic_Churchtown_desc"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="start"
+        android:textColor="@color/primary5"
+        android:gravity="start"
         />
     
     <Button
@@ -152,13 +148,13 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
-		android:padding="@dimen/padding_small"
+        android:background="@drawable/button"
+        android:padding="@dimen/padding_small"
 
         android:text="@string/clinic_NMH_desc"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="start"
+        android:textColor="@color/primary5"
+        android:gravity="start"
         />
     
         
@@ -170,13 +166,13 @@
         android:layout_marginBottom="@dimen/margin_small"
         android:layout_marginLeft="@dimen/margin_medium"
         android:layout_marginRight="@dimen/margin_medium"
-		android:background="@drawable/button"
-		android:padding="@dimen/padding_small"
+        android:background="@drawable/button"
+        android:padding="@dimen/padding_small"
 
         android:text="@string/clinic_Home_Visits_desc"
         android:textSize="@dimen/font_size"           
-		android:textColor="@color/primary5"
-		android:gravity="start"
+        android:textColor="@color/primary5"
+        android:gravity="start"
         />
     
 </LinearLayout>
