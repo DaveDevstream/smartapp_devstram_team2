@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SMART_app</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">SMART App</string>
 
+    <string name="view_appointments">View Appointments</string>
+    <string name="view_clinics">Clinics</string>
+    <string name="view_clinic_dates">Clinic Dates</string>
+    <string name="view_appointment_calendar">Appointment Calendar</string>
+    
+    <string name="select_calendar">Select the appropriate calendar</string>
+    <string name="select_domino_clinic">Select the Domino(Dublin) clinic you\'d like to view:</string>
+
+    <string name="clinics">Clinics\n(Ante-Natal)</string>
+    <string name="visits">Visits\n(Post-Natal)</string>
+    
+    <string name="clinic_NMH_OPD_desc">NMH (OPD Location)\n\t-Evening Booking Clinic\n\t-Weekly, Monday</string>
+    <string name="clinic_Leopardstown_desc">Leopardstown\n\t-Weekly, Tuesday</string>
+    <string name="clinic_DunLaoghaire_desc">Dún Laoghaire\n\t-St. Micheal\'s Hospital\n\t-Weekly, Wednesday</string>
+    <string name="clinic_Churchtown_desc">Churchtown\n\t-Weekly, Thursday</string>
+	<string name="clinic_NMH_desc">NMH\n\t-Weekly, Friday</string>
+	<string name="clinic_Home_Visits_desc">Home Visits\n\t-Miscellaneous\n\t-Daily</string>
+
+	<string name="clinic_NMH_OPD">NMH (OPD Location)</string>
+    <string name="clinic_Leopardstown">Leopardstown</string>
+    <string name="clinic_DunLaoghaire">Dún Laoghaire</string>
+    <string name="clinic_Churchtown">Churchtown</string>
+	<string name="clinic_NMH">NMH</string>
+	<string name="clinic_Home_Visits">Home Visits</string>
+		
+	<string name="week1">Week 1\n(placeholder for the date to go)</string>
+	<string name="week2">Week 2\n(the date needs to be added in code)</string>
+	<string name="week3">Week 3\n(in order to be up to date)</string>
+	<string name="week4">Week 4\n</string>
+	<string name="week5">Week 5\n</string>
+	<string name="week6">Week 6\n</string>
+	<string name="later">Later dates: </string>
+	
+	<string name="prev_week">&lt; Prev.</string>
+	<string name="next_week">Next &gt;</string>
+	<string name="current_date">&lt;Current Date&gt;</string>
+	<string name="placeholder_notice">&lt;Notice&gt;</string>
+	<string name="placeholder_warning">&lt;Warning&gt;</string>
+	<string name="appointment_count">1 Scheduled Appointments</string>
+	<string name="placeholder_appointment">9:15 &lt;Patient Name&gt; 32+3</string>
+	<string name="free_appointment">Free Slot</string>
+								
 </resources>
