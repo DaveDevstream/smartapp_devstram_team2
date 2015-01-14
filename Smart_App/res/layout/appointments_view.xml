@@ -157,6 +157,7 @@
         android:layout_width="match_parent"
     
         android:paddingLeft="@dimen/padding_medium"
+        android:paddingRight="@dimen/padding_medium"
         android:paddingTop="@dimen/padding_medium"
 
         android:text="@string/appointment_count"

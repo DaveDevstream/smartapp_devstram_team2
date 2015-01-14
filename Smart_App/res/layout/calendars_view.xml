@@ -17,13 +17,11 @@
         
         android:background="@color/primary3"
         android:orientation="horizontal"
-        android:weightSum="1"
         >
     
         <Button
             android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="0.15"
+            android:layout_width="@dimen/back_button_size"
 		
             android:gravity="center_vertical"
             android:layout_marginLeft="@dimen/margin_small"
@@ -33,7 +31,7 @@
         <TextView
             android:layout_height="match_parent"
             android:layout_width="0dp"
-            android:layout_weight="0.75"
+            android:layout_weight="1"
             
             android:paddingTop="@dimen/padding_medium"
             android:gravity="center_horizontal"
@@ -44,14 +42,13 @@
             />
 
         <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="0.1"
-	
-            android:gravity="center_vertical"
             android:layout_marginRight="@dimen/margin_small"
             android:background="@drawable/ic_action_overflow"
-            />
+            android:gravity="center_vertical"
+            android:minHeight="0dp"
+            android:minWidth="0dp" />
         
     </LinearLayout>
     

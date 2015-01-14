@@ -10,4 +10,7 @@
     <color name="notice">#e4e100</color>
     <color name="warning">#d11c00</color>
     
+    <color name="light_blue">#818cfc</color>
+    <color name="transparent">#00000000</color>
+    
 </resources>
