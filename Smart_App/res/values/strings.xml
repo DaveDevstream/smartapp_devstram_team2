@@ -113,4 +113,6 @@
 	<string name="placeholder_time_of_delivery">13:45</string>
 	<string name="placeholder_days_since_birth">5 days</string>
 	<string name="placeholder_birth_weight">2.45</string>
+	
+	<string nmame="testing_git"></string>
 </resources>
