@@ -81,6 +81,7 @@
         android:layout_width="match_parent"
         android:weightSum="3"
         
+        android:layout_marginTop="@dimen/margin_small"
         android:layout_marginBottom="@dimen/margin_small">
             
             <TextView
@@ -100,7 +101,7 @@
                 android:textSize="@dimen/font_size_small"
                 
                 android:background="@drawable/button_blank"
-                android:drawableTop="@drawable/ic_action_overflow"
+                android:drawableTop="@drawable/ic_antenatal"
                 />
             
             <TextView 
@@ -119,7 +120,7 @@
                 android:textSize="@dimen/font_size_small"
 
                 android:background="@drawable/button_blank"
-                android:drawableTop="@drawable/ic_action_overflow"
+                android:drawableTop="@drawable/ic_profile"
                 />
             
             <TextView 
@@ -138,7 +139,7 @@
                 android:textSize="@dimen/font_size_small"
 
                 android:background="@drawable/button_blank"
-                android:drawableTop="@drawable/ic_action_overflow"
+                android:drawableTop="@drawable/ic_postnatal_selected"
                 />
             
             <TextView

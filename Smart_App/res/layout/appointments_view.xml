@@ -132,8 +132,8 @@
         android:textColor="@color/primary5"
 
         android:background="@color/notice"
-        android:drawableLeft="@drawable/ic_action_overflow"
-        android:drawableRight="@drawable/ic_action_overflow" />
+        android:drawableLeft="@drawable/ic_info_black"
+        android:drawableRight="@drawable/ic_arrow_more" />
 
     <Button
         android:layout_height="wrap_content"
@@ -147,8 +147,8 @@
         android:textColor="@color/primary1"
 
         android:background="@color/warning"
-        android:drawableLeft="@drawable/ic_action_overflow"
-        android:drawableRight="@drawable/ic_action_overflow" />
+        android:drawableLeft="@drawable/ic_warning"
+        android:drawableRight="@drawable/ic_pop_out" />
 
     <!-- Here ends the optional boxes -->
 
@@ -180,7 +180,7 @@
         android:gravity="left|center_vertical"
 
         android:background="@drawable/top_of_table"
-        android:drawableRight="@drawable/ic_action_overflow"
+        android:drawableRight="@drawable/ic_info_grey"
         />
     
     <Button
@@ -198,7 +198,7 @@
         android:gravity="left|center_vertical"
 
         android:background="@drawable/element_of_table"
-        android:drawableRight="@drawable/ic_action_overflow"
+        android:drawableRight="@drawable/ic_info_grey"
         />
     
     <!-- Free Slot Element, has minor differences -->
@@ -209,7 +209,7 @@
         android:layout_marginTop="@dimen/margin_negative"
         android:layout_marginLeft="@dimen/margin_small"
         android:layout_marginRight="@dimen/margin_small"
-        android:padding="@dimen/padding_medium"
+        android:padding="@dimen/padding_small"
         
         android:text="@string/free_appointment"
         android:textSize="@dimen/font_size"           
@@ -217,7 +217,7 @@
         android:gravity="left|center_vertical"
 
         android:background="@drawable/element_of_table"
-        android:drawableLeft="@drawable/ic_action_overflow"
+        android:drawableLeft="@drawable/ic_add"
         />
     
     <Button
@@ -236,7 +236,7 @@
         android:gravity="left|center_vertical"
 
         android:background="@drawable/bottom_of_table"
-        android:drawableRight="@drawable/ic_action_overflow"
+        android:drawableRight="@drawable/ic_info_grey"
         />
     
 </LinearLayout>
